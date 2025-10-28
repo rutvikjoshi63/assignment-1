@@ -92,12 +92,23 @@ body {
   box-shadow: 0 10px 22px rgba(43,140,255,0.18);
 }
 
-#next-button {
+/* #next-button {
   padding: 10px 14px;
   border-radius: 8px;
   border: none;
   background: #2b8cff;
   color: white;
+  cursor: pointer;
+} */
+
+#next-button {
+  display: inline-block;
+  align-items: center;
+  border: 1px solid #151515cf;
+  background-color: #6865657f;
+  color: #595454;
+  font-size: 15px;
+  padding: 10px 10px;
   cursor: pointer;
 }
 
