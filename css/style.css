@@ -92,6 +92,20 @@ body {
   box-shadow: 0 10px 22px rgba(43,140,255,0.18);
 }
 
+/* Right/correct and wrong styles for option buttons */
+.option.right,
+.option.correct {
+  background: #28a745; /* green */
+  color: #fff;
+  box-shadow: 0 6px 14px rgba(40,167,69,0.14);
+}
+
+.option.wrong {
+  background: #dc3545; /* red */
+  color: #fff;
+  box-shadow: 0 6px 14px rgba(220,53,69,0.14);
+}
+
 /* #next-button {
   padding: 10px 14px;
   border-radius: 8px;
